@@ -20,7 +20,7 @@ Currently only version 1 and version 2 of the RSG list is completed however othe
 - `wolf_rayet_stars.csv`: compliation file of Wolf-Rayet stars from literature, does not include any further anaylsis
   - to be uploaded
 - `python_file` :
-  - code for ease of use of the files listed above
+  - code for basic manipulation of the files listed above
   - to be uploaded
 
 
