@@ -1,4 +1,6 @@
-##  **THE FINAL VERSION OF RSG LIST IS NOT PUBLISHED**
+## **Readme file is a work in progress**
+## **THE FINAL VERSION OF RSG LIST IS NOT PUBLISHED**
+
 
 # Galactic Supermassive Stars
 
