@@ -1,4 +1,4 @@
-## **Readme file is a work in progress**
+## **Work in progress**
 ## **THE FINAL VERSION OF RSG LIST IS NOT PUBLISHED**
 
 
