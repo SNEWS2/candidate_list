@@ -4,7 +4,7 @@
 
 # Galactic Supermassive Stars
 
-Currently only version 1 and version 2 of the RSG list is completed however other supermassive star list with less rigorous analysis will be upload for Wolf-Rayet and other supermassive stars
+Currently only version 1-3 of the RSG list is completed however other supermassive star list with less rigorous analysis will be upload for Wolf-Rayet and other supermassive stars
 
 ## Content
 - `RSG_version_1.csv` : First version of RSG candidate list used for SNEWS, includes anyalsis on luminosity and likelyhood of being a RSG
