@@ -12,7 +12,7 @@ Currently only version 1-3 of the RSG list is completed however other supermassi
       - **Gold** - in an area of Luminosity/Effective Temperature space which should be almost complete RSGs
       - **Silver** - in an area of Luminosity/Effective Temperature space which has some AGB contaimination
       - **Bronze** - in an area of Luminosity/Effective Temperature space with progressive more AGB contaimination
-- `RSG_version_2.csv` : Second version which includes expansion of list through Method 2 and changes to how spectral type was adopted
+- `RSG_version_2.csv` : Second version which includes expansion of list through Method 2, new derivation for dust extiniction, and changes to how spectral type was adopted
 - `RSG_version_3.csv` : Third version which includes uncertainties for calculated values, addition of Simbad classifications and Absolute G mag
    - was released here first rather then to SNEWS internally 
 - `Blue_supermassive_stars.csv` : Compliation file of Blue supermassive stars from literature 
