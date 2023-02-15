@@ -19,6 +19,8 @@ Currently only version 1-3 of the RSG list is completed however other supermassi
   - to be uploaded
 - `yellow-supermassive_stars.csv`: Compliation file of Yellow supermassive stars from literature, does not include any further anaylsis
   - to be uploaded
+-  `supermassive_stars.csv`: Compliation file of supermassive stars whose color has not been classified but have been determined as a massive star, does not include any further anaylsis
+  - to be uploaded
 - `wolf_rayet_stars.csv`: Compliation file of Wolf-Rayet stars from literature, does not include any further anaylsis
   - to be uploaded
 - `python_file` :
