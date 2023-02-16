@@ -13,20 +13,18 @@ Currently only version 1-2 of the RSG list is completed however other supermassi
       - **Bronze** - in an area of Luminosity/Effective Temperature space with progressive more AGB contaimination
 
 
-
-
 # Galactic Supermassive Stars
 
-- `Blue_supermassive_stars.csv` : Compliation file of Blue supermassive stars from literature 
+- `Blue_supermassive_stars.csv` : Compilation file of Blue supermassive stars from literature 
   - does not include any further anaylsis 
   - to be uploaded
-- `yellow-supermassive_stars.csv`: Compliation file of Yellow supermassive stars from literature 
+- `yellow_supermassive_stars.csv`: Compilation file of Yellow supermassive stars from literature 
   - does not include any further anaylsis
   - to be uploaded
--  `supermassive_stars.csv`: Compliation file of supermassive stars whose color has not been classified but have been determined as a massive star 
+-  `supermassive_stars.csv`: Compilation file of supermassive stars whose color has not been classified but have been determined as a massive star 
    - does not include any further anaylsis
    - to be uploaded
-- `wolf_rayet_stars.csv`: Compliation file of Wolf-Rayet stars from literature
+- `wolf_rayet_stars.csv`: Compilation file of Wolf-Rayet stars from literature
   - does not include any further anaylsis
   - to be uploaded
 
