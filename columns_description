@@ -1,0 +1,112 @@
+Below COLMUNS ARE DIRECTON FROM 2MASS - more detailed explinatino can be found at 
+[Cal Tech user guide](https://www.ipac.caltech.edu/2mass/releases/allsky/doc/sec2_2a.html)
+2mass_id : id from 2MASS
+2mass_ra : J2000 right ascension with respect to the ICRS
+2mass_decl : J2000 declination with respect to the ICRS 
+j_m : 2MASS J mag
+j_msigcom: Combined, or total photometric uncertainty for the default J-band magnitude
+j_snr : J-band "scan" signal-to-noise ratio.
+h_m : 2MASS H mag
+h_msigcom: Combined, or total photometric uncertainty for the default J-band magnitude
+h_snr : H-band "scan" signal-to-noise ratio.
+k_m : 2MASS K_s mag
+k_msigcom: Combined, or total photometric uncertainty for the default J-band magnitude
+k_snr: K_s-band "scan" signal-to-noise ratio.
+2mass_glon : glactic longitude for entry in 2MASS
+2mass_glat : glactic latitude for entry in 2MASS
+
+Below Columns come from variues spectral catalogues:
+RAJ2000_ : RA from spectral measurements
+DEJ2000_: DEC from spectral measurements 
+Name: name of object (Alias is more informative in terms of object names)
+Class: list of luminosity class given from references
+Note: notes on different names given by various references
+Ref: Reference Spectral Type
+Source: either same as Reference if SpType was derived in that reference or the source sighted for deriving the SpType
+SpType_a: Adopted Spectral type
+dec_2015.5 : DEC at epoch 2015.5
+ra_2015.5 : : RA at epoch 2015.5
+separation : seperation between RAJ2000_ and DEJ2000_ and gaia match 
+
+BELOW COLMUNS ARE DIRECTON FROM GAIA DR2 and external catalogs more detailed descriptions can be found at 
+[Gaia ESO 14.1.1](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_gaia_source.html)
+and [Gaia ESO 14.1.2](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html)
+and [Bailer-Jones et al. 2018](https://doi.org/10.3847/1538-3881/aacb21):
+ref_epoch,
+ra,
+ra_error,
+dec,
+dec_error,
+parallax,
+parallax_error,
+parallax_over_error,
+pmra,
+pmra_error,
+pmdec,
+pmdec_error,
+ra_dec_corr,
+phot_g_mean_mag,
+phot_bp_mean_mag,
+phot_rp_mean_mag,
+phot_proc_mode,
+bp_rp,
+bp_g,
+g_rp,
+radial_velocity,
+radial_velocity_error,
+l,b,ecl_lon,ecl_lat,
+priam_flags,
+a_g_val,
+a_g_percentile_lower,
+a_g_percentile_upper,
+source_id,
+ruwe,
+r_est : geomertric distance in parsecs
+r_lo,
+r_hi,
+r_len,
+result_flag,
+modality_flag,
+angular_distance : angular distance from gaia source to 2MASS match
+
+BELOW VALUES WERE CALCULATED 
+Teff : effective temperature based on spectral types
+Teff_error: error on effective temperatures
+External_parallax_error,
+relative_error,
+r_kpc : r_est in kpc
+A_Ks : extinction in the K band
+A_Ks_sig : uncertainty of K band extinction
+A_H : extinction in the H band
+A_J : extinction in the J band
+BCKs : bolometric correction
+BCKs_sig
+DM : distance module calculated
+DM_sig+
+DM_sig-
+A_V : extinction in the V band
+Ks_0 : intrinsic Ks mag
+Ks_0_sig : error on instrinic K mag
+H_0 : intrinsic H mag
+J_0 : intrinsic J mag
+MKs : absolute K magnitude
+MKs_sig+,
+MKs_sig-,
+Mbol : bolometric magnitude 
+Mbol_sig+ 
+Mbol_sig- 
+log(R/R.)
+R*
+log(L/L.) : log luminosity in terms of solar luminosity
+log_Teff: log effectative temperature 
+Ks_0-DM
+1/parallax : distance from parallax 
+Mg: absolute G mag
+x_kpc: 
+y_kpc,
+z_kpc,
+Method,
+Mbol_min,
+Alias : main name use for object defined by Simbad
+Simbad Classification,
+1/(parallax-parallax_0)
