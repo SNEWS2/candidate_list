@@ -16,13 +16,13 @@ Currently only version 1-2 of the RSG list is completed. Other massive star list
 
 # Galactic Supermassive Stars
 
-- `Blue_supermassive_stars.csv` : Compilation file of Blue supermassive stars from literature 
+- `blue_supermassive_stars.csv` : Compilation file of Blue supermassive stars from literature 
   - does not include any further anaylsis 
   - to be uploaded
 - `yellow_supermassive_stars.csv`: Compilation file of Yellow supermassive stars from literature 
   - does not include any further anaylsis
   - to be uploaded
--  `supermassive_stars.csv`: Compilation file of supermassive stars whose color has not been classified but have been determined as a massive star 
+- `supermassive_stars.csv`: Compilation file of supermassive stars whose color has not been classified but have been determined as a massive star 
    - does not include any further anaylsis
    - to be uploaded
 - `wolf_rayet_stars.csv`: Compilation file of Wolf-Rayet stars from literature
