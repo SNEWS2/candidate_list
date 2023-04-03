@@ -5,6 +5,9 @@ Currently only version 1-2 of the RSG list is completed. Other massive star list
 # Galactic RSGs
 **Work in progress!** Currently only version 1-2 of the RSG list is completed.
 
+- `Method_1_RSGs_catalog.csv` : 
+   - portion of the final version based on a collection of literature 
+
 - `RSG_version_2.csv` : Second version which includes expansion of list through Method 2, new derivation for dust extiniction, and changes to how spectral type was adopted
    - Some stars dropped out due to...
 - `RSG_version_1.csv` : First version of RSG candidate list used for SNEWS, includes anyalsis on luminosity and likelyhood of being a RSG
@@ -30,9 +33,9 @@ Currently only version 1-2 of the RSG list is completed. Other massive star list
   - to be uploaded
 
 # Working with Data
-- `python_file` :
+- `Basic_code` :
   - code for basic manipulation of the files listed above
-  - to be uploaded
+  
 - needed packages/libaries  
    - list added soon
 
