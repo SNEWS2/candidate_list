@@ -1,42 +1,43 @@
 ## 
-## **THE FINAL VERSION OF RSG LIST IS NOT YET PUBLISHED**
-Currently only version 1-2 of the RSG list is completed. Other massive star list will also be upload for Wolf-Rayet and other stars in near future.
+## **THE FINAL VERSION OF RSG LIST IS PUBLISHED: Final_RSG_Catalog_7_3_2023.csv**
+Currently, the RSG list is completed; other lists will also be uploaded for Wolf-Rayet and other stars soon.
 
 # Galactic RSGs
-**Work in progress!** Currently only version 1-2 of the RSG list is completed.
 
-- `Method_1_RSGs_catalog.csv` : 
+- `Method_1_RSGs_catalog.csv`: 
    - portion of the final version based on a collection of literature 
 
-- `RSG_version_2.csv` : Second version which includes expansion of list through Method 2, new derivation for dust extiniction, and changes to how spectral type was adopted
+- `RSG_version_2.csv`: Second version which includes expansion of list through Method 2, new derivation for dust extinction, and changes to how spectral type was adopted
    - Some stars dropped out due to...
-- `RSG_version_1.csv` : First version of RSG candidate list used for SNEWS, includes anyalsis on luminosity and likelyhood of being a RSG
-   - Regions for likelihood of RSG status include: 
+- `RSG_version_1.csv`: First version of RSG candidate list used for SNEWS, includes analysis on luminosity and the likelihood of being an RSG
+   - Regions for the likelihood of RSG status include: 
       - **Gold** - in an area of Luminosity/Effective Temperature space which should be almost complete RSGs
-      - **Silver** - in an area of Luminosity/Effective Temperature space which has some AGB contaimination
-      - **Bronze** - in an area of Luminosity/Effective Temperature space with progressive more AGB contaimination
+      - **Silver** - in an area of Luminosity/Effective Temperature space which has some AGB contamination
+      - **Bronze** - in an area of Luminosity/Effective Temperature space with progressive more AGB contamination
+
+- 'Final_RSG_Catalog_7_3_2023.csv':
 
 
 # Galactic Supermassive Stars
 
-- `blue_supermassive_stars.csv` : Compilation file of Blue supermassive stars from literature 
-  - does not include any further anaylsis 
+- `blue_supermassive_stars.csv`: Compilation file of Blue supermassive stars from literature 
+  - does not include any further analysis 
   - to be uploaded
 - `yellow_supermassive_stars.csv`: Compilation file of Yellow supermassive stars from literature 
-  - does not include any further anaylsis
+  - does not include any further analysis
   - to be uploaded
-- `supermassive_stars.csv`: Compilation file of supermassive stars whose color has not been classified but have been determined as a massive star 
-   - does not include any further anaylsis
+- `supermassive_stars.csv`: Compilation file of supermassive stars whose color has not been classified but has been determined as a massive star 
+   - does not include any further analysis
    - to be uploaded
 - `wolf_rayet_stars.csv`: Compilation file of Wolf-Rayet stars from literature
-  - does not include any further anaylsis
+  - does not include any further analysis
   - to be uploaded
 
 # Working with Data
 - `Basic_code` :
   - code for basic manipulation of the files listed above
   
-- needed packages/libaries  
-   - list added soon
+- needed packages/libraries  
+   - list will be added soon
 
 
