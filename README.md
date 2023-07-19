@@ -3,19 +3,19 @@
 Currently, the RSG list is completed; other lists will also be uploaded for Wolf-Rayet and other stars soon.
 
 # Galactic RSGs
-
+- `Final_RSG_Catalog_7_3_2023.csv`:
+    -Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
 - `Method_1_RSGs_catalog.csv`: 
    - portion of the final version based on a collection of literature 
 
 - `RSG_version_2.csv`: Second version which includes expansion of list through Method 2, new derivation for dust extinction, and changes to how spectral type was adopted
-   - Some stars dropped out due to...
+   
 - `RSG_version_1.csv`: First version of RSG candidate list used for SNEWS, includes analysis on luminosity and the likelihood of being an RSG
    - Regions for the likelihood of RSG status include: 
       - **Gold** - in an area of Luminosity/Effective Temperature space which should be almost complete RSGs
       - **Silver** - in an area of Luminosity/Effective Temperature space which has some AGB contamination
       - **Bronze** - in an area of Luminosity/Effective Temperature space with progressive more AGB contamination
 
-- 'Final_RSG_Catalog_7_3_2023.csv':
 
 
 # Galactic Supermassive Stars
