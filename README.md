@@ -1,5 +1,5 @@
 ## 
-## **THE FINAL VERSION OF RSG LIST IS PUBLISHED: Final_RSG_close_stars_Catalog_7_21_2023**
+## **THE FINAL VERSION OF RSG LIST IS PUBLISHED: Final_RSG_close_stars_Catalog_7_28_2023**
 Currently, the RSG list is completed; other lists will also be uploaded for Wolf-Rayet and other stars soon.
 
 # Galactic RSGs
