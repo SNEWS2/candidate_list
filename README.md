@@ -5,10 +5,12 @@ Currently, the RSG list is completed; other lists will also be uploaded for Wolf
 # Galactic RSGs
 - `Final_RSG_close_stars_Catalog_7_28_2023`:
     -Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
-    - includes close star list
+    - includes the close star list
+    - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
 - `Final_RSG_Catalog_7_28_2023`:
     -Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
-    - does not include close star list
+    - does not include the close star list
+    - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
 - `Method_1_RSGs_catalog.csv`: 
    - portion of the final version based on a collection of literature 
 
