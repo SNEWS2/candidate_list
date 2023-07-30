@@ -62,7 +62,7 @@ Columns (24)-(58): Values taken from Gaia DR3 detailed column descriptions can b
  - in_qso_candidates: Flag indicating the availability of additional information in the QSO candidates table
  - in_galaxy_candidates: Flag indicating the availability of additional information in the galaxy candidates table
  - non_single_star: Flag indicating the availability of additional information in the various Non-Single Star tables
- - phot_variable_flag: Photometric variability flag (NOT_AVAILABLE = source not processed or exported, CONSTANT = source identified as variable, VARIABLE = identified and processed as variable)
+ - phot_variable_flag: Photometric variability flag (NOT_AVAILABLE = source not processed or exported, CONSTANT = source not identified as variable, VARIABLE = identified and processed as variable)
  - azero_gspphot: Monochromatic extinction A_{0} at 541.4 nm from GSP-Phot Aeneas best library using BP/RP spectra
  - azero_gspphot_lower: Lower confidence level (16%) of monochromatic extinction A_{0} at 541.4 nm from GSP-Phot Aeneas best library using BP/RP spectra
  - azero_gspphot_upper: Upper confidence level (84%) of monochromatic extinction A_{0} at 541.4 nm from GSP-Phot Aeneas best library using BP/RP spectra
