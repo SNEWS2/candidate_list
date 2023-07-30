@@ -165,7 +165,7 @@ Columns (159)-(161): Runaway flag, reference, and each reference’s symbol in T
 
 Column (162): Cluster or OB association
 
-Column (163): Method used to find for initial sample
+Column (163): Method for collection (Compilation-based, Gaia-Based, within error bars, or Close star addendum)
 
 Column (164): Simbad Classification
 
