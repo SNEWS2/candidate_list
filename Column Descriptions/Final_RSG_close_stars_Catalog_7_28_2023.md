@@ -29,10 +29,11 @@ Columns (11) - (23): Values taken from 2MASS detailed column descriptions can be
   -  k_snr: K_s-band "scan" signal-to-noise ratio.
   -  2mass_glon: galactic longitude for entry in 2MASS
   -  2mass_glat: galactic latitude for entry in 2MASS
+  -  acatalog_identifier_optical_source: catalog identifier of an optical source from either the Tycho 2 or USNO-A2.0 catalog ('0' = no optical source, 'T' = Tycho 2 source, 'U' = USNO-A2.9 source)
   -  b_m_opt: Blue magnitude of the associated optical source
   -  vr_m_opt: Visual or red magnitude of the associated optical source
 
-Columns (24)-(58): Values taken from Gaia DR3 /DR2 detailed column descriptions can be found at the link: [Gaia DR3 documentation](https://gea.esac.esa.int/archive/documentation/GDR3/index.html)
+Columns (24)-(58): Values taken from Gaia DR3 detailed column descriptions can be found at the link: [Gaia DR3 documentation](https://gea.esac.esa.int/archive/documentation/GDR3/index.html)
 
 Columns (59)-(61): Values related to Gaia EDR3 distance taken from [Bailer-Jones et al. (2021)](https://ui.adsabs.harvard.edu/abs/2021AJ....161..147B)
 
