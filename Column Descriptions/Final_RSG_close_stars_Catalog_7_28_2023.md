@@ -34,81 +34,83 @@ Columns (11) - (23): Values taken from 2MASS detailed column descriptions can be
   -  vr_m_opt: Visual or red magnitude of the associated optical source
 
 Columns (24)-(58): Values taken from Gaia DR3 detailed column descriptions can be found at the link: [Gaia DR3 documentation](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_main_source_catalogue/ssec_dm_gaia_source.html)
- - ref_epoch,
- - ra,
- - ra_error,
- - dec,
- - dec_error,
- - parallax,
- - parallax_error,
- - pm,
- - pmra,
- - pmra_error,
- - pmdec,
- - pmdec_error,
- - ruwe,
- - phot_g_mean_mag,
- - phot_bp_mean_mag,
- - phot_rp_mean_mag,
- - bp_rp,
- - bp_g,
- - g_rp,
- - radial_velocity,
- - radial_velocity_error,
- - l,
- - b,
- - ecl_lon,
- - ecl_lat,
- - in_qso_candidates,
- - in_galaxy_candidates,
- - non_single_star,
- - phot_variable_flag,
- - azero_gspphot,
- - azero_gspphot_lower,
- - azero_gspphot_upper,
- - ag_gspphot,
- - ag_gspphot_lower,
- - ag_gspphot_upper,
+ - ref_epoch: Reference epoch
+ - ra: Right ascension
+ - ra_error: Standard error of right ascension
+ - dec: Declination
+ - dec_error: Standard error of declination
+ - parallax
+ - parallax_error: Standard error of parallax
+ - pm: total proper motion
+ - pmra: Proper motion in right ascension direction
+ - pmra_error: Standard error of proper motion in right ascension direction
+ - pmdec: Proper motion in declination direction
+ - pmdec_error: Standard error of proper motion in declination direction
+ - ruwe: renormalised unit weight error
+ - phot_g_mean_mag: G-band mean magnitude
+ - phot_bp_mean_mag: Integrated BP mean magnitude
+ - phot_rp_mean_mag: Integrated RP mean magnitude
+ - bp_rp: BP - RP colour
+ - bp_g: BP - G colour
+ - g_rp: G - RP colour
+ - radial_velocity: Radial velocity
+ - radial_velocity_error: Radial velocity error
+ - l: Galactic longitude
+ - b: Galactic latitude
+ - ecl_lon: Ecliptic longitude
+ - ecl_lat: Ecliptic latitude
+ - in_qso_candidates: Flag indicating the availability of additional information in the QSO candidates table
+ - in_galaxy_candidates: Flag indicating the availability of additional information in the galaxy candidates table
+ - non_single_star: Flag indicating the availability of additional information in the various Non-Single Star tables
+ - phot_variable_flag: Photometric variability flag (NOT_AVAILABLE = source not processed or exported, CONSTANT = source identified as variable, VARIABLE = identified and processed as variable)
+ - azero_gspphot: Monochromatic extinction A_{0} at 541.4 nm from GSP-Phot Aeneas best library using BP/RP spectra
+ - azero_gspphot_lower: Lower confidence level (16%) of monochromatic extinction A_{0} at 541.4 nm from GSP-Phot Aeneas best library using BP/RP spectra
+ - azero_gspphot_upper: Upper confidence level (84%) of monochromatic extinction A_{0} at 541.4 nm from GSP-Phot Aeneas best library using BP/RP spectra
+ - ag_gspphot: Extinction in G band from GSP-Phot Aeneas best library using BP/RP spectra
+ - ag_gspphot_lower: Lower confidence level (16%) of extinction in G band from GSP-Phot Aeneas best library using BP/RP spectra 
+ - ag_gspphot_upper: Upper confidence level (84%) of extinction in G band from GSP-Phot Aeneas best library using BP/RP spectra
 
 
 Columns (59)-(61): Values related to Gaia EDR3 distance taken from [Bailer-Jones et al. (2021)](https://ui.adsabs.harvard.edu/abs/2021AJ....161..147B)
- - r_med_geo:
- - r_lo_geo:
- - r_hi_geo:
-
+ - r_med_geo: the median of the geometric distance posterior in parsecs
+ - r_lo_geo: 16th percentile of the geometric distance posterior in parsecs
+ - r_hi_geo: 84th percentile of the geometric distance posterior in parsecs
+ 
 Columns (62)-(85): Values taken from Gaia DR2 detailed column descriptions can be found at the links: 
 [Gaia DR2 documentation](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_gaia_source.html)
 and [Gaia DR2 RUWE documentation](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html)
-ref_epoch_dr2,
-ra_dr2,
-ra_error_dr2,
-dec_dr2,
-dec_error_dr2,
-parallax_dr2,
-parallax_error_dr2,
-parallax_over_error_dr2,
-pmra_dr2,
-pmra_error_dr2,
-pmdec_dr2,
-pmdec_error_dr2,
-phot_g_mean_mag_dr2,
-phot_bp_mean_mag_dr2,
-phot_rp_mean_mag_dr2,
-bp_rp_dr2,
-bp_g_dr2,
-g_rp_dr2,
-radial_velocity_dr2,
-radial_velocity_error_dr2,
-a_g_val_dr2,
-a_g_percentile_lower_dr2,
-a_g_percentile_upper_dr2,
-ruwe_dr2,
+ - ref_epoch_dr2: Reference epoch
+ - ra_dr2: Right ascension
+ - ra_error_dr2: Standard error of right ascension
+ - dec_dr2: Declination
+ - dec_error_dr2: Standard error of declination
+ - parallax_dr2
+ - parallax_error_dr2: Standard error of parallax
+ - parallax_over_error_dr2: Parallax divided by its standard error
+ - pmra_dr2: Proper motion in right ascension direction
+ - pmra_error_dr2: Standard error of proper motion in right ascension direction
+ - pmdec_dr2: Proper motion in declination direction
+ - pmdec_error_dr2: Standard error of proper motion in declination direction
+ - phot_g_mean_mag_dr2: G-band mean magnitude
+ - phot_bp_mean_mag_dr2: Integrated BP mean magnitude
+ - phot_rp_mean_mag_dr2: Integrated RP mean magnitude
+ - bp_rp_dr2: BP - RP colour
+ - bp_g_dr2: BP - G colour
+ - g_rp_dr2: G - RP colour
+ - radial_velocity_dr2: Radial velocity
+ - radial_velocity_error_dr2: Radial velocity error
+ - a_g_val_dr2: line-of-sight extinction in the G band
+ - a_g_percentile_lower_dr2: a_g_val lower uncertainty
+ - a_g_percentile_upper_dr2: a_g_val upper uncertainty
+ - ruwe_dr2: renormalised unit weight error
 
 Columns (86)-(89): Values related to Gaia DR2 distance taken from [Bailer-Jones et al. (2018)](http://dx.doi.org/10.3847/1538-3881/aacb21)
- - r_est_dr2:
- - r_lo_dr2:
- - r_hi_dr2:
- - r_len_dr2:
+ - r_est_dr2: the point distance estimate
+ - r_lo_dr2: the lower bounds of the (approximately) 68% confidence interval
+ - r_hi_dr2: the upper bounds of the (approximately) 68% confidence interval
+ - r_len_dr2: Length scale used in the prior for the distance estimation
+
+
 
 Columns (90)-(91): Extinction in the K band and associated error
 
