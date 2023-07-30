@@ -33,15 +33,82 @@ Columns (11) - (23): Values taken from 2MASS detailed column descriptions can be
   -  b_m_opt: Blue magnitude of the associated optical source
   -  vr_m_opt: Visual or red magnitude of the associated optical source
 
-Columns (24)-(58): Values taken from Gaia DR3 detailed column descriptions can be found at the link: [Gaia DR3 documentation](https://gea.esac.esa.int/archive/documentation/GDR3/index.html)
+Columns (24)-(58): Values taken from Gaia DR3 detailed column descriptions can be found at the link: [Gaia DR3 documentation](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_main_source_catalogue/ssec_dm_gaia_source.html)
+ - ref_epoch,
+ - ra,
+ - ra_error,
+ - dec,
+ - dec_error,
+ - parallax,
+ - parallax_error,
+ - pm,
+ - pmra,
+ - pmra_error,
+ - pmdec,
+ - pmdec_error,
+ - ruwe,
+ - phot_g_mean_mag,
+ - phot_bp_mean_mag,
+ - phot_rp_mean_mag,
+ - bp_rp,
+ - bp_g,
+ - g_rp,
+ - radial_velocity,
+ - radial_velocity_error,
+ - l,
+ - b,
+ - ecl_lon,
+ - ecl_lat,
+ - in_qso_candidates,
+ - in_galaxy_candidates,
+ - non_single_star,
+ - phot_variable_flag,
+ - azero_gspphot,
+ - azero_gspphot_lower,
+ - azero_gspphot_upper,
+ - ag_gspphot,
+ - ag_gspphot_lower,
+ - ag_gspphot_upper,
+
 
 Columns (59)-(61): Values related to Gaia EDR3 distance taken from [Bailer-Jones et al. (2021)](https://ui.adsabs.harvard.edu/abs/2021AJ....161..147B)
+ - r_med_geo:
+ - r_lo_geo:
+ - r_hi_geo:
 
 Columns (62)-(85): Values taken from Gaia DR2 detailed column descriptions can be found at the links: 
 [Gaia DR2 documentation](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_gaia_source.html)
 and [Gaia DR2 RUWE documentation](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html)
+ref_epoch_dr2,
+ra_dr2,
+ra_error_dr2,
+dec_dr2,
+dec_error_dr2,
+parallax_dr2,
+parallax_error_dr2,
+parallax_over_error_dr2,
+pmra_dr2,
+pmra_error_dr2,
+pmdec_dr2,
+pmdec_error_dr2,
+phot_g_mean_mag_dr2,
+phot_bp_mean_mag_dr2,
+phot_rp_mean_mag_dr2,
+bp_rp_dr2,
+bp_g_dr2,
+g_rp_dr2,
+radial_velocity_dr2,
+radial_velocity_error_dr2,
+a_g_val_dr2,
+a_g_percentile_lower_dr2,
+a_g_percentile_upper_dr2,
+ruwe_dr2,
 
 Columns (86)-(89): Values related to Gaia DR2 distance taken from [Bailer-Jones et al. (2018)](http://dx.doi.org/10.3847/1538-3881/aacb21)
+ - r_est_dr2:
+ - r_lo_dr2:
+ - r_hi_dr2:
+ - r_len_dr2:
 
 Columns (90)-(91): Extinction in the K band and associated error
 
