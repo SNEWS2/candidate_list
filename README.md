@@ -11,6 +11,10 @@ Currently, the RSG list is completed; other lists will also be uploaded for Wolf
     -Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
     - does not include the close star list
     - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
+- ``:
+    - Starting list containing using methods and all late-type bright stars printed  as Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - 
+
 - `Method_1_RSGs_catalog.csv`: 
    - portion of the final version based on a collection of literature 
 
