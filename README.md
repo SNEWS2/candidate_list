@@ -1,8 +1,11 @@
 ## 
-## **THE FINAL VERSION OF RSG LIST IS PUBLISHED: Final_RSG_close_stars_Catalog_7_28_2023**
-Currently, the RSG list is completed; other lists will also be uploaded for Wolf-Rayet and other stars soon.
+The current iteration of the RSG list is completed; future improvements are planned and will be added as soon as available. 
+Other lists will also be uploaded for Wolf-Rayet and other stars soon.
 
-# Galactic RSGs (found in `data` folder)
+# Galactic RSGs 
+
+These can be found in the `data` folder
+
 - `Final_RSG_close_stars_Catalog_7_28_2023`:
     - Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
     - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
