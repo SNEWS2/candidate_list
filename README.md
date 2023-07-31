@@ -2,18 +2,20 @@
 ## **THE FINAL VERSION OF RSG LIST IS PUBLISHED: Final_RSG_close_stars_Catalog_7_28_2023**
 Currently, the RSG list is completed; other lists will also be uploaded for Wolf-Rayet and other stars soon.
 
-# Galactic RSGs
+# Galactic RSGs (found in `data` folder)
 - `Final_RSG_close_stars_Catalog_7_28_2023`:
-    -Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
     - includes the close star list
     - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
 - `Final_RSG_Catalog_7_28_2023`:
-    -Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
     - does not include the close star list
     - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
-- ``:
+- `Bright_Late_Type_Star_Catalog`:
     - Starting list containing using methods and all late-type bright stars printed  as Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
-    - 
+    - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
 
 - `Method_1_RSGs_catalog.csv`: 
    - portion of the final version based on a collection of literature 
@@ -47,7 +49,5 @@ Currently, the RSG list is completed; other lists will also be uploaded for Wolf
 - `Basic_code` :
   - code for basic manipulation of the files listed above
   
-- needed packages/libraries  
-   - list will be added soon
 
 
