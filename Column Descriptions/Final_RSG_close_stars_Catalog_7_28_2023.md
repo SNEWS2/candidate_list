@@ -140,7 +140,7 @@ Column (113): Log of effective temperature
 
 Columns (114)-(116): Galactic coordinates in kiloparsecs [x, y,z with the sun at (-8.2,0, 0.1)]
 
-Columns (117): Mass-loss based on Eq. 6 in the associated [paper](http://arxiv.org/abs/2307.08785)
+Columns (117): Log of estimated mass loss rates based on Eq. 6 in the associated [paper](http://arxiv.org/abs/2307.08785)
 
 Columns (118)-(130): Variable values taken from Gaia DR3 detailed column descriptions can be found at the links:
 [Gaia DR3 variable documentation](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_variability_tables/)
