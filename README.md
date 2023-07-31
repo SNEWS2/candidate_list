@@ -20,17 +20,18 @@ These can be found in the `data` folder
     - Starting list containing using methods and all late-type bright stars printed  as Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
     - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
 
-- `Method_1_RSGs_catalog.csv`: 
+- `Method_1_RSGs_catalog.csv`: :warning: This catalog is obsoleted
    - portion of the final version based on a collection of literature 
 
-- `RSG_version_2.csv`: Second version which includes expansion of list through Method 2, new derivation for dust extinction, and changes to how spectral type was adopted
+- `RSG_version_2.csv`: :warning: This catalog is obsoleted
+    - Second version which includes expansion of list through Method 2, new derivation for dust extinction, and changes to how spectral type was adopted
    
-- `RSG_version_1.csv`: First version of RSG candidate list used for SNEWS, includes analysis on luminosity and the likelihood of being an RSG
+- `RSG_version_1.csv`: :warning: This catalog is obsoleted
+   - First version of RSG candidate list used for SNEWS, includes an analysis on luminosity and the likelihood of being an RSG
    - Regions for the likelihood of RSG status include: 
       - **Gold** - in an area of Luminosity/Effective Temperature space which should be almost complete RSGs
       - **Silver** - in an area of Luminosity/Effective Temperature space which has some AGB contamination
       - **Bronze** - in an area of Luminosity/Effective Temperature space with progressive more AGB contamination
-
 
 
 # Galactic Supermassive Stars
