@@ -20,15 +20,11 @@ Columns (11) - (23): Values taken from 2MASS detailed column descriptions can be
   -  2mass_decl: J2000 declination with respect to the ICRS 
   -  j_m: 2MASS J mag
   -  j_msigcom: Combined, or total photometric uncertainty for the default J-band magnitude
-  -  j_snr: J-band "scan" signal-to-noise ratio.
   -  h_m: 2MASS H mag
   -  h_msigcom: Combined, or total photometric uncertainty for the default J-band magnitude
-  -  h_snr: H-band "scan" signal-to-noise ratio.
   -  k_m: 2MASS K_s mag
   -  k_msigcom: Combined, or total photometric uncertainty for the default J-band magnitude
   -  k_snr: K_s-band "scan" signal-to-noise ratio.
-  -  2mass_glon: galactic longitude for entry in 2MASS
-  -  2mass_glat: galactic latitude for entry in 2MASS
   -  acatalog_identifier_optical_source: catalog identifier of an optical source from either the Tycho 2 or USNO-A2.0 catalog ('0' = no optical source, 'T' = Tycho 2 source, 'U' = USNO-A2.9 source)
   -  b_m_opt: Blue magnitude of the associated optical source
   -  vr_m_opt: Visual or red magnitude of the associated optical source
@@ -174,7 +170,13 @@ Column (165): Region (A-E)
 
 
 
-<!--  ref_epoch,
+<!--  
+-  j_snr: J-band "scan" signal-to-noise ratio.
+-  h_snr: H-band "scan" signal-to-noise ratio.
+-  2mass_glon: galactic longitude for entry in 2MASS
+-  2mass_glat: galactic latitude for entry in 2MASS
+
+ref_epoch,
 ra,
 ra_error,
 dec,
