@@ -171,13 +171,13 @@ Columns (130)-(140): Non-single star values taken from Gaia DR3 detailed column 
 
 Columns (141)-(147): Variable values taken from Gaia DR2 detailed column descriptions can be found at the link: 
 [Gaia DR2 variable documentation](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_variability_tables/)
-best_class_name_dr2: Name of the best class
-pf_dr2: Period corresponding to the fundamental pulsation mode (for multi-mode pulsators) in the G band time series [day]
-pf_error_dr2: Error of pf [day]
-metallicity_dr2: Metallicity of the star from the Fourier parameters of the light curve [dex]
-metallicity_error_dr2: Error on the Metallicity [dex]
-frequency_dr2: Frequency [/day]
-frequency_error_dr2: Error on the frequency [/day]
+ - best_class_name_dr2: Name of the best class
+ - pf_dr2: Period corresponding to the fundamental pulsation mode (for multi-mode pulsators) in the G band time series [day]
+ - pf_error_dr2: Error of pf [day]
+ - metallicity_dr2: Metallicity of the star from the Fourier parameters of the light curve [dex]
+ - metallicity_error_dr2: Error on the Metallicity [dex]
+ - frequency_dr2: Frequency [/day]
+ - frequency_error_dr2: Error on the frequency [/day]
 
 Columns (148)-(153): Variable values taken from AAVSO detailed column descriptions can be found at the link: [AAVSO VSX](https://vizier.cds.unistra.fr/viz-bin/VizieR-3?-source=B/vsx&-out.max=50&-out.form=HTML%20Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa)
  - AAVSO_Type: AAVSO variable flag
