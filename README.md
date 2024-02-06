@@ -7,7 +7,7 @@ Other lists will also be uploaded for Wolf-Rayet and other stars soon.
 These can be found in the `data` folder
 
 - `Final_RSG_close_stars_Catalog_8_10_2023`:
-    - Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - Final list containing both methods and a set of well-known RSGs not included in the Gaia database printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
     - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
     - includes the close star list
     - utilizes AAVSO VSX version=7.32.4
