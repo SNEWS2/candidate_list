@@ -19,7 +19,7 @@ These can be found in the `data` folder
     - utilizes AAVSO VSX version=7.32.4
     - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
 - `Bright_Late_Type_Star_Catalog`:
-    - Starting list containing using methods and all late-type bright stars printed  as Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - Starting list containing using methods and all late-type bright stars (not all are SN progenitors) printed  as Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
     - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
 
 - `Method_1_RSGs_catalog.csv`: :warning: This catalog is obsoleted
