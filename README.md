@@ -2,26 +2,27 @@
 The current iteration of the RSG list is completed; future improvements are planned and will be added as soon as available. 
 Other lists will also be uploaded for Wolf-Rayet and other stars soon.
 
-# Galactic RSGs 
+# Galactic RSG Candidates 
+**Latest** (August 10, 2023)
 
 - `Final_RSG_Catalog_8_10_2023`:
     - Final list containing both methods and all stars printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
     - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
-    - does not include the close star list
+    - does not include the close star list 
     - utilizes AAVSO VSX version=7.32.4
-    - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
+    - warning: two objects are included that only have positional information from Gaia DR2, and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
+- `Final_RSG_close_stars_Catalog_8_10_2023`
+    - Same as `Final_RSG_Catalog_8_10_2023` but also includes a list of known RSG whose proximity prevents being in Gaia DR2/DR3 data
+      
+**Sublists** (available in the `data` folder)
 
-These can be found in the `data` folder
-
-- `Final_RSG_close_stars_Catalog_8_10_2023`:
-    - Final list containing both methods and a set of well-known RSGs not included in the Gaia database printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
-    - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
-    - includes the close star list
-    - utilizes AAVSO VSX version=7.32.4
-    - warning: two objects are included that only have positional information from Gaia DR2 and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
 - `Bright_Late_Type_Star_Catalog`:
-    - Starting list containing using methods and all late-type bright stars (not all are SN progenitors) printed  as Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
-    - details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
+    - Contains all late-type bright stars, including objects from `Final_RSG_Catalog_8_10_2023` along with stars determined not to be SN progenitors
+    - Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - Details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
+
+
+# Old [obsolete] Versions:
 
 - `Method_1_RSGs_catalog.csv`: :warning: This catalog is obsoleted
    - portion of the final version based on a collection of literature 
