@@ -20,7 +20,7 @@ Other lists will also be uploaded for Wolf-Rayet and other stars soon.
     
 - `Bright_Late_Type_Star_Catalog`:
     - Contains all late-type bright stars, used to produce `Final_RSG_Catalog_8_10_2023`
-    - **Contains Stars that are not SN progenitors**
+    - **Contains stars that are not SN progenitors**
     - Table 2 in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
     - Details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
 
