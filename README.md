@@ -6,14 +6,15 @@ Other lists will also be uploaded for Wolf-Rayet and other stars soon.
 **Latest** (August 10, 2023)
 
 
-- `Final_RSG_close_stars_Catalog_8_10_2023`
+- `RSG_and_close_stars_catalog_3_12_24.csv`:
     - Final list containing both methods and a list of known RSG whose proximity prevents being in Gaia DR2/DR3 data printed in the recent paper (https://doi.org/10.48550/arXiv.2307.08785)
+    - Includes adjustments based on work by Sebastián Otero
     - Details about the meaning of column identifiers can be found in the `Column Descriptions` folder under the same name
     - Utilizes AAVSO VSX version=7.32.4
     - Warning: two objects are included that only have positional information from Gaia DR2, and so columns like ra, dec, and radial velocity are left empty while ra_dr2, dec_dr2 .. etc have values (V1061 Sco and BD-17 5117)
       
 **Associated Lists** (available in the `data` folder)
-- `Final_RSG_Catalog_8_10_2023`:
+- `RSG_catalog_3_12_24.csv`:
     - Final list that does not include the close star list 
     
     
@@ -26,7 +27,8 @@ Other lists will also be uploaded for Wolf-Rayet and other stars soon.
 
 
 # Old [obsolete] Versions:
-
+- `Final_RSG_close_stars_Catalog_8_10_2023`: :warning: This catalog is obsoleted
+- `Final_RSG_Catalog_8_10_2023`: :warning: This catalog is obsoleted
 - `Method_1_RSGs_catalog.csv`: :warning: This catalog is obsoleted
    - portion of the final version based on a collection of literature 
 
